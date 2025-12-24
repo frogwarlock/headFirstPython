@@ -1,0 +1,14 @@
+Criar um sistema de monitoramento de tempo em diferentes tipos de nado para um treinador que tem mais de 20 alunos.
+
+O objetivo é otimizar o acompanhamento do desempenho dos alunos em natação, permitindo que o treinador registre, analise e visualize os tempos de cada aluno em diferentes estilos de nado.
+
+A primeira coisa que ele fez foi comprar um cronnômetro digital que registra os tempos em um arquivo csv que é salvo como txt.
+
+O nome do arquivo vem com o nome do nadador, a faixa etária, a distância nadada e o estilo.
+Ou seja Isa-99-100m-livre.txt
+
+O arquivo tem uma linha com todos os tempos separados por vírgula.
+Exemplo:
+00:55.32,00:54.21,00:56.11,00:53.89
+
+O que o treinador precisa que seja feito é que o sistema processe automaticamente os arquivos, extraia os dados do aluno e fazer o gráfico.
