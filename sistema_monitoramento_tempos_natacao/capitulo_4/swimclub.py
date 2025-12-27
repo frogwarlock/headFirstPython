@@ -36,6 +36,13 @@ def read_swim_data(filename):
     return swimmer, age, distance, stroke, times, average, converts #retorna uma tupla com os dados do nadador
 
 def produce_bar_chart(fn):
+    """
+    Gera um gráfico de barras em HTML para os tempos de natação de um nadador.
+    Args:
+        fn (string): nome do arquivo de dados do nadador
+    Returns: 
+        string: caminho do arquivo HTML gerado
+    """
     
     swimmer, age, distance, stroke, times, average, converts = read_swim_data(fn)
     from_max = max(converts)
