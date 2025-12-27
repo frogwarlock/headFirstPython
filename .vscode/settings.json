@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./sistema_monitoramento_tempos_natacao/capitulo_4/",
+        "./sistema_monitoramento_tempos_natacao/capitulo_5"
+    ]
+}
